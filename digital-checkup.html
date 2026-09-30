@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Request calm, personal help with everyday technology from IT Assistant.">
+  <title>Digital Checkup — IT Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="analytics.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">ia</span><span>it-assistant<span>.org</span></span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="main-nav"><a href="index.html">Home</a><a href="index.html#guides">Guides</a><a class="active" href="digital-checkup.html">Personal help</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+    <a class="language-switch" href="ro/digital-checkup/" lang="ro">RO</a>
+  </header>
+  <main>
+    <section class="page-hero"><div class="wrap"><p class="eyebrow"><i></i> PERSONAL TECH HELP</p><h1>A calmer way to solve<br>everyday tech problems.</h1></div></section>
+    <div class="page-content">
+      <p>A Digital Checkup is a simple one-to-one conversation for people who want clear help with a device, an account or online safety. We start by understanding the problem, then agree on safe next steps.</p>
+      <section class="checkup-offer" aria-labelledby="offer-title">
+        <p class="offer-label">LAUNCH OFFER</p>
+        <h2 id="offer-title">Digital Checkup online</h2>
+        <p class="offer-price">69 RON <span>· 30 minutes</span></p>
+        <p>A clear conversation about your problem and what to do next, without unnecessary technical language.</p>
+        <ul><li>We clarify the problem and your options.</li><li>You receive simple steps for your own device.</li><li>We confirm by email whether we can help before arranging the session.</li></ul>
+      </section>
+      <div class="service-list"><div><b>Devices and Wi-Fi</b><p>Windows, phone, printer, Bluetooth and home connection problems.</p></div><div><b>Accounts and safety</b><p>Passwords, two-factor authentication, backups and suspicious messages.</p></div><div><b>Clear next steps</b><p>Plain-language guidance, so you know what to do after the conversation.</p></div></div>
+      <h2>Send a booking request</h2>
+      <p>Send a short description and your preferred time. We will reply by email to confirm whether and how we can help.</p>
+      <form name="digital-checkup" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+        <input type="hidden" name="form-name" value="digital-checkup">
+        <p hidden><label>Do not fill this out: <input name="bot-field"></label></p>
+        <p><label>Your name<br><input name="name" type="text" required></label></p>
+        <p><label>Email address<br><input name="email" type="email" required></label></p>
+        <p><label>What would you like help with?<br><select name="topic" required><option value="" selected disabled>Select a topic</option><option>Windows or computer</option><option>Phone or tablet</option><option>Wi-Fi, printer or Bluetooth</option><option>Passwords or account safety</option><option>Suspicious email, message or website</option><option>Something else</option></select></label></p>
+        <p><label>Briefly describe the problem<br><textarea name="message" rows="6" required></textarea></label></p>
+        <p><label>Preferred day or time (optional)<br><input name="availability" type="text" placeholder="For example: weekday evening"></label></p>
+        <p class="privacy-consent"><label><input name="privacy-consent" type="checkbox" required> I agree that IT Assistant may use the details I submit to reply to this request, as described in the <a href="privacy.html">Privacy policy</a>.</label></p>
+        <button type="submit">Send request →</button>
+      </form>
+      <p class="notice"><strong>For your safety:</strong> never send passwords, verification codes, banking details, card numbers or private account information. IT Assistant does not make payments or access financial accounts for you.</p>
+      <p class="form-note">This is not an emergency support service. If you believe an account or bank card is at immediate risk, contact the provider or bank directly.</p>
+    </div>
+  </main>
+  <footer><div class="wrap copyright">© 2026 IT Assistant. <a href="privacy.html">Privacy policy</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

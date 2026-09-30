@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Clear, practical IT guides for everyday technology problems." />
+  <title>IT Assistant — Practical technology guides</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="ai.css" />
+  <link rel="stylesheet" href="compact-menus.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">ia</span><span>it-assistant<span>.org</span></span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a><a href="#guides">Guides</a><a href="digital-checkup.html">Personal help</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions"><a class="language-switch" href="ro/" lang="ro">RO</a><a class="header-cta" href="digital-checkup.html">Get personal help <span>→</span></a></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><i></i> PRACTICAL TECHNOLOGY, EXPLAINED</p>
+          <h1>Less confusion.<br><em>More confidence.</em></h1>
+          <p class="hero-text">Straightforward guides for the everyday technology problems that slow you down — from passwords and Wi-Fi to online safety and AI tools.</p>
+          <form class="site-search" action="#guides">
+            <label class="sr-only" for="guide-search">Search guides</label><span>⌕</span><input id="guide-search" type="search" placeholder="Search a guide..." /><button type="submit">Search</button>
+          </form>
+          <p class="topics">Popular: <a href="articles/reset-windows-password.html">Password reset</a><a href="articles/secure-home-wifi.html">Home Wi-Fi</a><a href="articles/spot-a-phishing-email.html">Phishing</a><a href="articles/choosing-ai-platforms.html">AI platforms</a></p>
+        </div>
+        <aside class="featured-card">
+          <span class="featured-label">START HERE</span>
+          <span class="card-icon">⌘</span>
+          <p class="card-kicker">ACCOUNT SECURITY</p>
+          <h2>How to spot a phishing email before it causes damage</h2>
+          <p>Learn the five checks that make suspicious messages easier to recognize.</p>
+          <a href="articles/spot-a-phishing-email.html">Read the guide <b>→</b></a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="personal-help" aria-labelledby="personal-help-title"><div class="wrap personal-help-grid">
+      <div><p class="eyebrow blue"><i></i> NEED A CALMER HAND?</p><h2 id="personal-help-title">Personal help for everyday technology.</h2><p>Guides are a good start. If you still feel stuck, request a Digital Checkup: a simple one-to-one conversation about your device, accounts or online safety.</p></div>
+      <div class="personal-help-card"><b>Digital Checkup</b><ul><li>Windows, phone, Wi-Fi or account help</li><li>Passwords, backups and safer settings</li><li>Clear next steps, without technical jargon</li></ul><a href="digital-checkup.html">Request personal help <span>→</span></a></div>
+    </div></section>
+
+    <section class="guide-levels" aria-labelledby="guide-levels-title"><div class="wrap">
+      <div class="levels-heading"><div><p class="eyebrow blue"><i></i> CHOOSE YOUR STARTING POINT</p><h2 id="guide-levels-title">Find the right level<br>for you.</h2></div><p>Start where you feel comfortable. You can always move on when you are ready.</p></div>
+      <div class="level-grid">
+        <button class="level-card" type="button" data-level="beginner" aria-pressed="false"><span>01</span><b>Beginner</b><small>Simple, guided fixes with no technical background needed.</small><em>Start here <i>→</i></em></button>
+        <button class="level-card" type="button" data-level="intermediate" aria-pressed="false"><span>02</span><b>Intermediate</b><small>More control over settings, with clear explanations at every step.</small><em>Explore <i>→</i></em></button>
+        <button class="level-card" type="button" data-level="advanced" aria-pressed="false"><span>03</span><b>Advanced</b><small>Build, publish and manage a website with more confidence.</small><em>Explore <i>→</i></em></button>
+      </div>
+    </div></section>
+
+    <section class="categories"><div class="wrap">
+      <p class="eyebrow blue"><i></i> EXPLORE BY TOPIC</p>
+      <div class="category-grid"><a href="#guides"><span>◌</span><b>Accounts & passwords</b><small>Stay in control of your access</small></a><a href="windows.html"><span>⊞</span><b>Windows help</b><small>Fix common PC problems safely</small></a><a href="choose-your-platform.html"><span>◫</span><b>Devices & ecosystems</b><small>Windows, Apple or Android?</small></a><a href="#guides"><span>◈</span><b>Privacy & security</b><small>Build safer online habits</small></a><a href="#guides"><span>⌁</span><b>Internet & Wi-Fi</b><small>Fix common connection issues</small></a><a href="articles/choosing-ai-platforms.html"><span>✦</span><b>AI platforms</b><small>Choose the right assistant for the task</small></a></div>
+    </div></section>
+
+    <section class="guides" id="guides"><div class="wrap">
+      <div class="section-heading"><div><p class="eyebrow blue"><i></i> LATEST GUIDES</p><h2>Useful answers,<br>without the jargon.</h2></div><p>Every guide is written to help you understand the problem, fix it safely and know what to do next.</p></div>
+      <div class="guide-grid">
+        <article class="guide-card" data-level="beginner"><div class="guide-number">01</div><p class="tag">ACCOUNTS</p><h3>How to reset a Windows password safely</h3><p>Recover access without guessing, downloading risky tools or losing important files.</p><a href="articles/reset-windows-password.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="beginner"><div class="guide-number">02</div><p class="tag">WI-FI</p><h3>Five ways to make your home Wi-Fi safer</h3><p>Simple changes that protect your network and improve everyday reliability.</p><a href="articles/secure-home-wifi.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="beginner"><div class="guide-number">03</div><p class="tag">SECURITY</p><h3>How to spot a phishing email</h3><p>Use these checks before clicking a link, opening a file or sharing a password.</p><a href="articles/spot-a-phishing-email.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="intermediate"><div class="guide-number">01</div><p class="tag">AI PLATFORMS</p><h3>How to choose an AI platform</h3><p>A clear guide to ChatGPT, Claude, Gemini, Copilot, Perplexity, Meta AI and Mistral.</p><a href="articles/choosing-ai-platforms.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="beginner"><div class="guide-number">04</div><p class="tag">WINDOWS</p><h3>Practical Windows help for everyday problems</h3><p>Start with safe, clear fixes for updates, storage and a slow PC at startup.</p><a href="windows.html">Explore Windows help <span>→</span></a></article>
+        <article class="guide-card" data-level="beginner"><div class="guide-number">05</div><p class="tag">DEVICES</p><h3>Windows, Apple or Android: choose what fits you</h3><p>Compare the strengths of each ecosystem before you buy a new computer or phone.</p><a href="choose-your-platform.html">Compare platforms <span>→</span></a></article>
+        <article class="guide-card" data-level="beginner"><div class="guide-number">06</div><p class="tag">BLUETOOTH</p><h3>Fix Bluetooth pairing problems in Windows</h3><p>Safe pairing steps for headphones, speakers, keyboards and other accessories.</p><a href="articles/fix-windows-bluetooth.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="beginner"><div class="guide-number">07</div><p class="tag">PRINTERS</p><h3>Fix a printer that will not print in Windows</h3><p>Practical checks for a printer that is offline, missing or has a stuck job.</p><a href="articles/fix-windows-printer.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="intermediate"><div class="guide-number">02</div><p class="tag">WI-FI</p><h3>Wi-Fi connected, but no internet: what to try</h3><p>Work out whether the issue is your device, router or internet service.</p><a href="articles/wifi-connected-no-internet.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="beginner"><div class="guide-number">08</div><p class="tag">SECURITY</p><h3>Set up two-factor authentication safely</h3><p>Protect your accounts and keep recovery options ready for a lost phone.</p><a href="articles/enable-two-factor-authentication.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="intermediate"><div class="guide-number">03</div><p class="tag">ANDROID</p><h3>Five practical ways to secure an Android phone</h3><p>Simple settings that can help if your phone is lost, stolen or picked up.</p><a href="articles/secure-your-android-phone.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="beginner"><div class="guide-number">09</div><p class="tag">IPHONE</p><h3>Free up iPhone storage safely</h3><p>Make room for updates and photos without losing important files by mistake.</p><a href="articles/free-up-iphone-storage.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="intermediate"><div class="guide-number">04</div><p class="tag">WINDOWS</p><h3>Back up a Windows PC before something goes wrong</h3><p>Protect important files and settings with a simple backup plan.</p><a href="articles/back-up-windows-pc.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="beginner"><div class="guide-number">10</div><p class="tag">PASSWORDS</p><h3>Create strong passwords you do not have to memorise</h3><p>Use unique passwords and a password manager without making life harder.</p><a href="articles/create-strong-passwords.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="beginner"><div class="guide-number">11</div><p class="tag">ONLINE SHOPPING</p><h3>How to check if an online shop is legitimate before you pay</h3><p>Simple checks for a seller, reviews, delivery promises and safer payment.</p><a href="articles/check-online-shop-before-paying.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="intermediate"><div class="guide-number">05</div><p class="tag">BROWSER SAFETY</p><h3>A simple browser safety checklist</h3><p>Useful habits for safer websites, downloads and browser extensions.</p><a href="articles/browser-safety-checklist.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="intermediate"><div class="guide-number">06</div><p class="tag">MESSAGING</p><h3>Five WhatsApp privacy settings worth checking</h3><p>Review account security, linked devices and what contacts can see.</p><a href="articles/whatsapp-privacy-settings.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="intermediate"><div class="guide-number">07</div><p class="tag">HOME WI-FI</p><h3>Make your home router and Wi-Fi safer</h3><p>Simple settings that protect the network used by all your devices.</p><a href="articles/secure-home-router.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="advanced"><div class="guide-number">01</div><p class="tag">CODEX</p><h3>Plan a website update with Codex before editing files</h3><p>Turn an idea into a safe, reviewable change instead of editing at random.</p><a href="articles/plan-website-update-with-codex.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="advanced"><div class="guide-number">02</div><p class="tag">NETLIFY</p><h3>Publish a static site on Netlify without using the wrong project</h3><p>A calm checklist for testing, deploying and checking a live update.</p><a href="articles/publish-static-site-on-netlify.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="advanced"><div class="guide-number">03</div><p class="tag">WEBSITE SETUP</p><h3>WordPress or a static site: choose the right setup</h3><p>Understand the trade-offs before changing where your website lives.</p><a href="articles/wordpress-or-static-site.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="advanced"><div class="guide-number">04</div><p class="tag">LOVABLE</p><h3>Build a web app with Lovable without skipping the safety checks</h3><p>Turn an idea into a useful prototype, then review it before anyone depends on it.</p><a href="articles/build-web-app-with-lovable.html">Read guide <span>→</span></a></article>
+        <article class="guide-card" data-level="advanced"><div class="guide-number">05</div><p class="tag">GITHUB</p><h3>Keep a safe history of website changes with GitHub</h3><p>Use clear checkpoints so a good version of your site is never lost.</p><a href="articles/keep-website-history-with-github.html">Read guide <span>→</span></a></article>
+      </div>
+      <p class="search-empty" id="search-empty" hidden>No guide found yet. Try a broader word such as <strong>Windows</strong>, <strong>Wi-Fi</strong>, <strong>security</strong> or <strong>phone</strong>.</p>
+      <div class="newsletter"><div><p class="eyebrow"><i></i> NO-NONSENSE TECH TIPS</p><h2>One useful guide, when it matters.</h2></div><p>New practical articles are published here. No sign-up is required to use the site.</p></div>
+    </div></section>
+  </main>
+
+  <footer><div class="wrap footer-grid"><div><a class="brand" href="index.html"><span class="brand-mark">ia</span><span>it-assistant<span>.org</span></span></a><p>Practical technology guides and calm personal help.</p></div><div><b>Explore</b><a href="#guides">Guides</a><a href="digital-checkup.html">Personal help</a><a href="about.html">About</a><a href="contact.html">Contact</a></div><div><b>Legal</b><a href="privacy.html">Privacy policy</a><a href="contact.html">Editorial contact</a></div></div><div class="wrap copyright">© 2026 IT Assistant. Educational content only.</div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

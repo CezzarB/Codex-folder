@@ -1,0 +1,186 @@
+[[redirects]]
+  from = "/favicon.ico"
+  to = "/favicon.svg"
+  status = 200
+
+# Keep one public URL for every page. Netlify otherwise serves both the
+# source .html filename and the clean URL as separate 200 responses.
+[[redirects]]
+  from = "/about.html"
+  to = "/about"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contact.html"
+  to = "/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/digital-checkup.html"
+  to = "/digital-checkup"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/privacy.html"
+  to = "/privacy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/windows.html"
+  to = "/windows"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/choose-your-platform.html"
+  to = "/choose-your-platform"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/reset-windows-password.html"
+  to = "/articles/reset-windows-password"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/secure-home-wifi.html"
+  to = "/articles/secure-home-wifi"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/spot-a-phishing-email.html"
+  to = "/articles/spot-a-phishing-email"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/check-online-shop-before-paying.html"
+  to = "/articles/check-online-shop-before-paying"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/choosing-ai-platforms.html"
+  to = "/articles/choosing-ai-platforms"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/fix-windows-update.html"
+  to = "/articles/fix-windows-update"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/free-up-windows-storage.html"
+  to = "/articles/free-up-windows-storage"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/manage-windows-startup-apps.html"
+  to = "/articles/manage-windows-startup-apps"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/fix-windows-bluetooth.html"
+  to = "/articles/fix-windows-bluetooth"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/fix-windows-printer.html"
+  to = "/articles/fix-windows-printer"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/wifi-connected-no-internet.html"
+  to = "/articles/wifi-connected-no-internet"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/enable-two-factor-authentication.html"
+  to = "/articles/enable-two-factor-authentication"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/secure-your-android-phone.html"
+  to = "/articles/secure-your-android-phone"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/free-up-iphone-storage.html"
+  to = "/articles/free-up-iphone-storage"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/back-up-windows-pc.html"
+  to = "/articles/back-up-windows-pc"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/create-strong-passwords.html"
+  to = "/articles/create-strong-passwords"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/browser-safety-checklist.html"
+  to = "/articles/browser-safety-checklist"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/whatsapp-privacy-settings.html"
+  to = "/articles/whatsapp-privacy-settings"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/secure-home-router.html"
+  to = "/articles/secure-home-router"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/plan-website-update-with-codex.html"
+  to = "/articles/plan-website-update-with-codex"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/publish-static-site-on-netlify.html"
+  to = "/articles/publish-static-site-on-netlify"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/wordpress-or-static-site.html"
+  to = "/articles/wordpress-or-static-site"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/build-web-app-with-lovable.html"
+  to = "/articles/build-web-app-with-lovable"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/keep-website-history-with-github.html"
+  to = "/articles/keep-website-history-with-github"
+  status = 301
+  force = true

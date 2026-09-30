@@ -1,0 +1,60 @@
+/* Blue compact guide menus */
+.guide-accordion {
+  background: linear-gradient(135deg, #0f55ef, #2874ff);
+  border-color: #0f55ef;
+  color: #fff;
+  box-shadow: 0 10px 22px #1457db24;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.guide-accordion:hover {
+  box-shadow: 0 14px 28px #1457db35;
+  transform: translateY(-2px);
+}
+
+.guide-accordion[open] {
+  background: #f7faff;
+  border-color: #0f55ef;
+  color: var(--ink);
+  box-shadow: 0 14px 30px #17285b17;
+}
+
+.guide-accordion .guide-level-column-heading { border-bottom-color: transparent; }
+.guide-accordion .guide-level-column-heading span,
+.guide-accordion .guide-level-column-heading small,
+.guide-accordion .guide-level-column-heading b { color: #fff; }
+.guide-accordion[open] .guide-level-column-heading span,
+.guide-accordion[open] .guide-level-column-heading b { color: var(--blue); }
+.guide-accordion[open] .guide-level-column-heading small { color: var(--muted); }
+.guide-accordion[open] .guide-level-column-heading { border-bottom-color: #cddcff; }
+
+/* A shorter, more focused homepage hero */
+.hero { min-height: 430px; padding: 96px 0 35px; }
+.hero-grid { gap: 58px; }
+.hero h1 { font-size: clamp(40px, 5vw, 58px); margin-bottom: 15px; }
+.hero-text { font-size: 13px; line-height: 1.6; }
+.site-search { margin-top: 20px; }
+.topics { margin: 12px 0; }
+.featured-card { padding: 20px; }
+.card-icon { height: 38px; margin: 14px 0 10px; width: 38px; }
+.featured-card h2 { font-size: 20px; }
+.featured-card p:not(.card-kicker) { line-height: 1.5; }
+
+@media (max-width: 760px) {
+  .hero { min-height: 0; padding: 92px 0 42px; }
+  .featured-card { margin-top: 38px; }
+}
+
+/* Smaller starting-level cards */
+.guide-levels { padding-top: 58px; }
+.levels-heading { margin-bottom: 20px; }
+.level-card { min-height: 158px; padding: 18px 20px; }
+.level-card > span { margin-bottom: 18px; }
+.level-card b { font-size: 19px; margin-bottom: 5px; }
+.level-card small { font-size: 11px; line-height: 1.45; }
+.level-card em { margin-top: 13px; }
+
+@media (max-width: 760px) {
+  .guide-levels { padding-top: 46px; }
+  .level-card { min-height: 0; }
+}
